@@ -1,0 +1,34 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+}
+.head{
+    background-color: #99CC00;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.left-head{
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.right-head{
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.hotline{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+.select{
+    background-color: bisque;
+    width: 30%;
+    height: 100%;
+    
+}

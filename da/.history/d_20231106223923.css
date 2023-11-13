@@ -1,0 +1,112 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.head{
+    background-color: #99CC00;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.left-head{
+    width:60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.right-head{
+    width:40%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+.hotline{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-bottom: 2px solid white;
+}
+.select{
+    width: 40%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.number{
+    text-indent: 10px;
+    color: wheat;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 10px;
+    font-weight: 600;
+}
+.fa-solid{
+    text-indent: 5px;
+    transition: transform 0.1s;
+    transform: scale(1);
+}
+.hotline:hover{
+    border-bottom:2px solid#777777;
+}
+.number:hover{
+    text-decoration-line: underline;
+}
+.select:hover{
+    border-bottom:2px solid#777777;
+}
+.fa-solid:hover{
+    transform: scale(1.2);
+}
+.nav{
+    background-color: black;
+    display:flex;
+    height: 5em;
+    line-height: 3em;
+    justify-content: space-around;
+}
+.logo{
+    width: 7%;
+    height: 100%;
+    background-image: url('Dat BadMinton.png') ;
+    background-size:cover;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    padding-right: 2.5em ;
+}
+.menu li a:hover{
+    color: pink;
+    transition: color .2s ease-out;
+}
+.menu_down{
+    background-color: #99CC00;
+    width: 150px;
+    height: 18em;
+    margin: 0px auto;
+    position: absolute;
+    top:100px;
+    left: 615px;
+    display: none;
+}
+.menu_down li{
+    text-align: center;
+    padding: 0px;
+
+}
+.menu_down li a:hover{
+    color: pink;
+}
+menu .menu_link:hover .menu_down{
+     display: block;
+}

@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="d.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="header">
+        <div class="select">
+            <div class="logoo">
+
+            </div>
+        </div>
+        <div class="search">
+            <form action="" id="search-box">
+                <input type="text" id="search-text" placeholder="Tìm sản phẩm ..."
+                required>
+                <button id="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-users"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+    <div class="bigmenu">
+        <div class="header_inner">
+            <div class="logo">
+                <i class="fa-solid fa-bars"></i>
+                Thể loại
+            </div>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="" class="menu_link"> Sản Phẩm</a>
+                    <div class="menu_child">
+                        <div class="menu_child-item">
+                            <h4>Elements</h4>
+                            <ul class="menu_child-list">
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                            </ul>
+                        </div>
+                        <div class="menu_child-item">
+                            <h4>Elements</h4>
+                            <ul class="menu_child-list">
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                            </ul>
+                        </div>
+                        <div class="menu_child-item">
+                            <h4>Elements</h4>
+                            <ul class="menu_child-list">
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                            </ul>
+                        </div>
+                        <div class="menu_child-item">
+                            <h4>Elements</h4>
+                            <ul class="menu_child-list">
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                                <li>Demo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_item"><a href="" class="menu_link"> Tin Tức</a></li>
+                <li class="menu_item"><a href="" class="menu_link"> Sale Off</a></li>
+                <li class="menu_item"><a href="" class="menu_link"> Liên Hệ</a></li>
+            </ul>
+        </div>
+    </div> 
+    <div class=""></div>
+    <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="poster2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="poster5.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="poster3.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="space"></div>
+    <div class="small-carousel">
+        <div class="sc-l"></div>
+        <div class="sc-r"></div>
+    </div>
+    <div class="dai"></div>
+    <div class="topBanChay">
+        <div class="tbc-to">
+            <div class="tbc-be1">Top sản phẩm bán chạy</div>
+            <div class="tbc-be2">
+                <div class="more">
+                    Các sản phẩm khác 
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="sanPham">
+        <div class="sanPham8Muc">
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <div class="symbol-css">
+                        <i class="fa-solid fa-heart"></i>
+                        </div>    
+                    </div>
+                    <div class="name">
+                        Yonex Astrox 88D Pro
+                    </div>
+                    <div class="price">
+                        3.700.000 đ
+                    </div>
+                </div>
+                <div class="image1"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">
+                        Lining Aeronaut 700
+                    </div>
+                    <div class="price">
+                        4.600.000 đ
+                    </div>
+                </div>
+                <div class="image2"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">
+                        Lining Axforce 90
+                    </div>
+                    <div class="price">
+                        4.500.000 đ
+                    </div>
+                </div>
+                <div class="image3"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">
+                        Lining Halbertec 80
+                    </div>
+                    <div class="price">
+                        3.700.000 đ
+                    </div>
+                </div>
+                <div class="image4"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Lining Axforce 100</div>
+                    <div class="price">4.600.000 đ</div>
+                </div>
+                <div class="image5"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Yonex Nanoflare 70</div>
+                    <div class="price">3.390.000 đ</div>
+                </div>
+                <div class="image6"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Victor Ryuga 2</div>
+                    <div class="price">2.500.000 đ</div>
+                </div>
+                <div class="image7"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Lining Tectonic 9</div>
+                    <div class="price">3.500.000 đ</div>
+                </div>
+                <div class="image8"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Yonox Astrox 100zz</div>
+                    <div class="price">4.350.000 đ</div>
+                </div>
+                <div class="image9"></div>
+            </div>
+            <div class="oSanPham">
+                <div class="in4">
+                    <div class="symbol">
+                        <div class="symbol-css">
+                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <div class="symbol-css">
+                            <i class="fa-solid fa-heart"></i>
+                            </div> 
+                    </div>
+                    <div class="name">Kumpoo 99pro</div>
+                    <div class="price">730.000 đ</div>
+                </div>
+                <div class="image10"></div>
+            </div>
+        </div>
+    </div>
+    <div class="dai"></div>
+    <div class="topBanChay">
+        <div class="tbc-to">
+            <div class="tbc-be1">Top sản phẩm được yêu thích</div>
+            <div class="tbc-be2">
+                <div class="option">
+                    <a href="">Sale Off</a>
+                </div>
+                <div class="option">
+                    <a href="">Sản Phẩm Mới</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="topBanChay2">
+        <div class="tbc-iteam-big">
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -34%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child1"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Giày Mizuno Blade Z</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.790.000 đ</a>
+                        <span> 2.390.000 đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -50%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child2"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Áo Vina Authentic Nam</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">89.000 đ</a>
+                        <span> 179.000 đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -40%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child3"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Balo Kamito TM Legend</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">850.000đ</a>
+                        <span> 1.190.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -30%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child4"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Váy Lining 9190</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">90.000đ</a>
+                        <span> 119.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -30%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child5"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Váy Yonex 92006</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">90.000đ</a>
+                        <span> 119.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child6"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Lining ACD15</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.500.000đ</a>
+                        <span> 1.800.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child7"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Yonex B1408</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.300.000đ</a>
+                        <span> 1.590.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child8"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Lining ABJ99</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">990.000đ</a>
+                        <span> 1.290.000đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="poster">
+        <div class="poster-button">
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click"></div>
+            <div class="poster-button-click1">Học ngay</div>
+            <div class="poster-button-click"></div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="space3"></div>
+    <div class="topBanChay">
+        <div class="tbc-to">
+            <div class="tbc-be1">Sản phẩm mới</div>
+            <div class="tbc-be2">
+                <div class="more">
+                    Các sản phẩm khác 
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="topBanChay2">
+        <div class="tbc-iteam-big">
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -34%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child1"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Giày Mizuno Blade Z</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.790.000 đ</a>
+                        <span> 2.390.000 đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -50%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child2"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Áo Vina Authentic Nam</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">89.000 đ</a>
+                        <span> 179.000 đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -40%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child3"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Balo Kamito TM Legend</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">850.000đ</a>
+                        <span> 1.190.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -30%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child4"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Váy Lining 9190</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">90.000đ</a>
+                        <span> 119.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -30%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child5"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Váy Yonex 92006</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">90.000đ</a>
+                        <span> 119.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child6"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Lining ACD15</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.500.000đ</a>
+                        <span> 1.800.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child7"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Yonex B1408</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">1.300.000đ</a>
+                        <span> 1.590.000đ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item1">
+                <div class="sale">
+                    <div class="sale-item">
+                        -20%
+                    </div>
+                </div>
+                <div class="item-image">
+                    <div class="item-image-child8"></div>
+                </div>
+                <div class="item-in4">
+                    <div class="star">
+                        <span>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        </span>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="in4-name">
+                        <a href="">Túi cầu lông Lining ABJ99</a>
+                        </div>
+                    <div class="in4-price">
+                        <a href="">990.000đ</a>
+                        <span> 1.290.000đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="trietLy">
+        <div class="trietLy-text">
+            <div class="content"><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A excepturi aspernatur mollitia ex omnis est voluptates! 
+                Odit, recusandae sapiente quis et dolorum illum sint voluptate architecto beatae tempore tenetur veniam?</span>
+            </div>
+            <div class="tacGia">
+                <div class="avt"></div>
+                <div class="tacGia-name">
+                    BUI KHANH DAT / CEO
+                </div>
+            </div>
+             </div>
+    </div>
+    <div class="space3"></div>
+    <div class="topBanChay">
+        <div class="tbc-to">
+            <div class="tbc-be1">Tin tức mới nhất</div>
+            <div class="tbc-be2">
+                <div class="more">
+                    Trang khác
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space3"></div>
+    <div class="topBanChay3">
+        <div class="tbc-iteam-big1">
+            <div class="new">
+                <div class="picture"></div>
+                <div class="information">
+                    <div class="tieuDe">
+                        <a href="">Top 10 giày cầu lông 
+                        các tuyển thủ hay sử dụng nhất.</a>
+                    </div>
+                    <div class="sanXuat">Bởi 
+                        <span> Mr.Dat / 11 tháng 11,2023</span>
+                    </div>
+                    <div class="noiDung">Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit. Hic odit velit 
+                         sint quis, eveniet aliquam ...</div>
+                </div>
+                <div class="docThem">
+                    <a href="">Đọc thêm</a>
+                </div>
+            </div>
+            <div class="new">
+                <div class="picture1"></div>
+                <div class="information">
+                    <div class="tieuDe">
+                        <a href="">Tiêu điểm cầu thủ: Con đường trở thành siêu sao
+                            của Kento Momota.
+                        </a>
+                    </div>
+                    <div class="sanXuat">Bởi 
+                        <span> Mr.Dat / 11 tháng 11,2023</span>
+                    </div>
+                    <div class="noiDung">Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit. Hic odit velit 
+                         sint quis, eveniet aliquam ...</div>
+                </div>
+                <div class="docThem">
+                    <a href="">Đọc thêm</a>
+                </div>
+            </div>
+            <div class="new">
+                <div class="picture2"></div>
+                <div class="information">
+                    <div class="tieuDe">
+                        <a href="">Top các siêu phẩm vợt 
+                            đã làm lên tên tuổi của huyền thoại Lee Chong Wei.
+                        </a>
+                    </div>
+                    <div class="sanXuat">Bởi 
+                        <span> Mr.Dat / 11 tháng 11,2023</span>
+                    </div>
+                    <div class="noiDung">Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit. Hic odit velit 
+                         sint quis, eveniet aliquam ...</div>
+                </div>
+                <div class="docThem">
+                    <a href="">Đọc thêm</a>
+                </div>
+            </div>
+            </div>
+    </div>
+    <div class="space3"></div>
+    <div class="danhGia">
+        <div class="first">Hãy theo dõi bản tin của chúng tôi!</div>
+        <div class="second"></div>
+        <div class="third">
+            <form action=""> 
+                <button class="but1"><i class="fa-regular fa-envelope"></i></button>
+                <input type="text" placeholder="Hãy nhập emaill của bạn" required>
+                <button class="but2"> Gửi</button>
+            </form>
+        </div>
+    </div>
+    <div class="space4">
+        <div class="space3"></div>
+        <div class="space5">
+            <div class="p1"></div>
+            <div class="p2"></div>
+            <div class="p3"></div>
+            <div class="p4"></div>
+            <div class="p5"></div>
+        </div>
+        <div class="topBanChay1">
+            <div class="tbc-to1">
+                </div>
+            </div>
+        <div class="space3"></div>
+        <div class="space6">
+            <div class="lAA">
+                <div class="logooo">
+                    <div class="real"></div>
+                </div>
+                <div class="lAA-item">
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                :   Xuân Canh, Đông Anh, Hà Nội.
+                </div>
+                <div class="lAA-item">
+                    <i class="fa-solid fa-phone"></i>
+                    : 0912345678
+                </div>
+                <div class="lAA-item"></div>
+                <div class="brand"></div>
+            </div>
+            <div class="ps">
+                <div class="column">
+                    <div class="row-main">Thông tin</div>
+                    <div class="clo">Thông tin giao hàng</div>
+                    <div class="clo">Tìm kiếm nâng cao</div>
+                    <div class="clo">Trợ giúp và câu hỏi</div>
+                    <div class="clo">Vị trí cửa hàng</div>
+                    <div class="clo">Đơn đặt hàng giao hàng</div>
+                    <div class="clo">Giao Hàng</div>
+                    <div class="clo">Giao hàng & trả hàng</div>
+                </div>
+                <div class="column">
+                    <div class="row-main">Công Ty</div>
+                    <div class="clo">Giao hàng</div>
+                    <div class="clo">Thông báo pháp lý</div>
+                    <div class="clo">Sơ đồ trang web</div>
+                    <div class="clo">Thanh toán an toàn</div>
+                    <div class="clo">Blog</div>
+                    <div class="clo">Chúng tôi</div>
+                    <div class="clo">Nghề nghiệp</div> 
+                </div>
+                <div class="column">
+                    <div class="row-main">Tài khoản của tôi</div>
+                    <div class="clo">Thuật ngữ tìm kiếm</div>
+                    <div class="clo">Tìm kiếm nâng cao</div>
+                    <div class="clo">Trợ giúp & câu hỏi</div>
+                    <div class="clo">Vị trí cửa hàng</div>
+                    <div class="clo">Đơn đặt hàng & giao hàng</div>
+                    <div class="clo">Giao hàng</div>
+                    <div class="clo">Hoàn tiền & trả hàng</div> 
+                </div>
+                <div class="column">
+                    <div class="row-main">Thời gian mở</div>
+                    <div class="clo">Thứ 2-Thứ 6:8am-10pm</div>
+                    <div class="clo">Thứ7:9am-8pm</div>
+                    <div class="clo">Chủ nhật:14pm-18pm</div>
+                    <div class="clo">Thứ 2-Thứ 6:8am-10pm</div>
+                    <div class="clo">Chúng tôi làm việc tất cả ngày lễ</div>
+                    <div class="clo">Tải xuống ứng dụng !</div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

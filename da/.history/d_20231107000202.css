@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+.head{
+    background-color: #99CC00;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.left-head{
+    width:60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+.right-head{
+    width:40%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+}
+.hotline{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-bottom: 2px solid white;
+}
+.select{
+    width: 40%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.number{
+    text-indent: 10px;
+    color: wheat;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 10px;
+    font-weight: 600;
+}
+.fa-solid{
+    text-indent: 5px;
+    transition: transform 0.1s;
+    transform: scale(1);
+}
+.hotline:hover{
+    border-bottom:2px solid#777777;
+}
+.number:hover{
+    text-decoration-line: underline;
+}
+.select:hover{
+    border-bottom:2px solid#777777;
+}
+.fa-solid:hover{
+    transform: scale(1.2);
+}
+.nav{
+
+    display:flex;
+    height: 60px;
+    line-height: 6em;
+    justify-content: space-around;
+}
+.logo{
+    width: 15%;
+    height: 100%;
+    background-image: url('z4855559339032_f52dfc50c2a66e564d62993c93b9ee23.jpg') ;
+    background-size:cover;
+}
+.menu{
+    width: 40%;
+    display: flex;
+}
+.menu li{ 
+    padding-right: 2.5em ;
+    font-size: larger;
+}
+.menu li a:hover{
+    color: pink;
+    transition: color .2s ease-out;
+}
+.menu_down{
+    width: 140px;
+    height: 18em;
+    margin: 0px auto;
+    position: absolute;
+    top:80px;
+    left: 810px;
+    display: none;
+}
+.menu_down li{
+    padding: 0px;
+    border-bottom:1px solid black;
+    text-align: center;
+
+}
+.menu_down li:hover{
+    color:pink;
+    transition: color .2s ease-out;
+}
+.menu .menu_link:hover .menu_down{
+     display: block;
+}
+.icon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around:
+    align-items: center;
+    font-size: 20px;
+    
+}
+.a{
+    width: 100px;
+    height: 100%;
+}

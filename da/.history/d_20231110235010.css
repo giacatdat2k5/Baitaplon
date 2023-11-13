@@ -1,0 +1,844 @@
+*{
+    margin:0;
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    height:60px;
+    background-color:white;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.select{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoo{
+    width: 124px;
+    height: 60%;
+    background-image: url('moinhat.jpg');
+    background-size: contain;
+    cursor: pointer;
+}
+
+.search{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon i:hover{
+    filter: drop-shadow(0 0 2px black);
+    color:pink;
+    transition: 0.25s ease-in-out;
+}
+*{
+    box-sizing: border-box;
+}
+#search-box{
+    background-color: white;
+    border-radius: 30px;
+}
+#search-box #search-text{
+    border:none;
+    outline: none;
+    background-color: none;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+}
+#search-box:hover #search-text, #search-box #search-text:valid{
+    width: 300px;
+    padding: 10px 0px 10px 15px;
+}
+#search-box #search-button{
+    background-color: white;
+    border:none;
+    padding: 10px 13px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.bigmenu{
+    background-color: #00CCCC;
+}
+.header_inner{
+    max-width: 1024px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: relative;
+}
+.logo{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family:Monaco;
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color: rgb(233, 225, 225);
+    transition: 0.25s ease-in-out;
+    filter: drop-shadow(0 0 3px white);
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu_item{
+    margin: 0 1rem;
+}
+.menu_item:hover .menu_child{
+    opacity: 1;
+    visibility:visible;
+    transition: 0.25s linear;
+    filter: drop-shadow(0 0 5px white);
+}
+.menu_child{
+    position:absolute;
+    top:100%;
+    left: 0;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+}
+.menu_child-item{
+    width: 25%;
+}
+.menu_child-item h4{
+    color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0.7rem;
+    margin: 0;
+    background-color: #00CCCC;
+}
+.menu_child-list{
+    padding: 0;
+}
+.menu_child-list li{
+    margin: 0;
+    padding: 0.7rem;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 0.1px solid black;
+    color: black;
+}
+.menu_child-list li:hover{
+    transition: 0.25s linear;
+    background-color:#DCDCDCFF;
+    filter: drop-shadow(0 0 3px #00CCCC );
+
+}
+.menu_link{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: monaco;
+}
+.carousel{
+    width: 100%;
+    height: 420px;
+    margin-top: 0px;
+}
+.space{
+    width: 100%;
+    height: 40px;
+}
+.small-carousel{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.sc-l{
+    width: 49.5%;
+    height: 90%;
+    background-image: url('3_2.webp');
+    background-size: cover;
+    
+}
+.sc-r{
+    width: 49.5%;
+    height: 90%;
+    background-image: url('1_3.webp');
+    background-size: cover;
+}
+.dai{
+    width: 100%;
+    height: 80px;
+}
+.topBanChay{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.tbc-to{
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.tbc-be1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-family: Monaco;
+}
+.tbc-be2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.more{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+    border: 1px solid #009900;
+    color: #009900;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 100;
+}
+.more i{
+    text-indent: 10px;
+}
+.more:hover{
+    background-color: black;
+    color:white;
+    transition: 0.25s ease-in-out;
+}
+.space2{
+    width: 100%;
+    height:1000px;
+}
+.space3{
+    width: 100%;
+    height:50px;
+}
+.sanPham{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.sanPham8Muc{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.oSanPham{
+    width: 20%;
+    height: 50%;
+    border: 0.01px solid black;
+    display: flex;
+}
+.in4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.image1{
+    width: 50%;
+    height: 100%;
+    background-image: url('88dpro.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+.image1:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image2:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image3:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image4:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image5:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image6:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image7:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image8:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image9:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.image10:hover{
+    filter:drop-shadow(0 0 3px black) ;
+    transition: 0.25s ease-in-out;
+}
+.symbol{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+}
+
+.name{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    padding: 8px;
+    color: coral;
+    font-family: Monaco;
+    font-size: 15px;
+    cursor: pointer;
+}
+.price{
+    width: 100%;
+    height: 33.33%;
+    padding: 10px;
+    font-weight: 700;
+    color:red;
+    cursor: pointer;
+}
+.symbol-css{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:black;
+    cursor: pointer;
+}
+.symbol-css:hover{
+    color:red;
+    transition: 0.25s ease-in-out;
+    filter:drop-shadow(0 0 1.5px black) ;
+    transform: scale(1.5, 1.5);
+}
+.image2{
+    width: 50%;
+    height: 100%;
+    background-image: url('aerounate700.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image3{
+    width: 50%;
+    height: 100%;
+    background-image: url('axforce90dragon.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image4{
+    width: 50%;
+    height: 100%;
+    background-image: url('halbertec8000.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image5{
+    width: 50%;
+    height: 100%;
+    background-image: url('lining axforce 100.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image6{
+    width: 50%;
+    height: 100%;
+    background-image: url('nanoflare70.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image7{
+    width: 50%;
+    height: 100%;
+    background-image: url('ryuga2.webp');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.image8{
+    width: 50%;
+    height: 100%;
+    background-image: url('tectonic9.webp');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.image9{
+    width: 50%;
+    height: 100%;
+    background-image: url('yonex astrox100zz.webp');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.image10{
+    width: 50%;
+    height: 100%;
+    background-image: url('kumpoo 99pro.webp');
+    background-size: cover;
+    cursor: pointer;
+}
+.option{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option a{
+    text-decoration:none;
+    color:#009900;
+    font-size: 18px;
+    font-weight: 100;
+}
+.option a:hover{
+    color:pink;
+    transition: 0.25s ease-in-out;
+}
+.topBanChay2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.tbc-iteam-big{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.sale{
+    width: 100%;
+    height: 10%;
+    padding: 4px;
+}
+.item1{
+    width: 21%;
+    height: 45%;
+    border: 0.5px solid black;
+}
+.item-image{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-in4{
+    width: 100%;
+    height: 30%;
+}
+.sale-item{
+    width: 20%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+.star{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in4-name{
+    width: 100%;
+    height: 33.33%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 500;
+
+}
+.in4-name a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+.in4-price{
+    width: 100%;
+    height: 33.33%;
+    text-align: center;
+}
+.in4-price a{
+    text-decoration: none;
+    color:red;
+    font-weight: 700;
+    font-size: 18px;
+}
+.in4-price span{
+    font-size:13px;
+    text-decoration: line-through;
+}
+.star span i{
+    color:#66FF00;
+    text-indent: 10px;
+    cursor: pointer;
+}
+.star i{
+    text-indent: 10px;
+    cursor: pointer;
+}
+.item-image-child1{
+    width: 80%;
+    height: 100%;
+    background-image: url('Mizuno Blade Z.webp');
+    background-size: cover;
+}
+.item-image-child1:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child2{
+    width: 80%;
+    height: 100%;
+    background-image: url('áo vina authentic.webp');
+    background-size: cover;
+}
+.item-image-child2:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child3{
+    width: 80%;
+    height: 100%;
+    background-image: url('balo kamito tm legend.webp');
+    background-size: cover;
+}
+.item-image-child3:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child4{
+    width: 80%;
+    height: 100%;
+    background-image: url('váy lining 9109.webp');
+    background-size: cover;
+}
+.item-image-child4:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child5{
+    width: 80%;
+    height: 100%;
+    background-image: url('váy yonex 92006.webp');
+    background-size: cover;
+}
+.item-image-child5:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child6{
+    width: 80%;
+    height: 100%;
+    background-image: url('túi lining acd15.webp');
+    background-size: cover;
+}
+.item-image-child6:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child7{
+    width: 80%;
+    height: 100%;
+    background-image: url('239b.webp');
+    background-size: cover;
+}
+.item-image-child7:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.item-image-child8{
+    width: 80%;
+    height: 100%;
+    background-image: url('lining abj99.webp');
+    background-size: cover;
+}
+.item-image-child8:hover{ 
+    transform: scale(1.05, 1.05);
+    filter:drop-shadow(0 0 2px black) ;
+    transition: 0.25s ease-in-out;
+}
+.poster{
+    width: 100%;
+    height: 450px;
+    background-image: url('ttshop.png');
+    background-size: cover;
+}
+.poster-button{
+    width: 138px;
+    height: 100%;
+    margin-left: 404px;
+    padding-bottom: 151px;
+}
+.poster-button-click{
+    width: 100%;
+    height: 20%;
+}
+.poster-button-click1{
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Monaco;
+    cursor: pointer;
+    color:black;
+    font-weight: 800;
+    background-color: white;
+    filter:drop-shadow(0 0 1.5px black) ;
+}
+.poster-button-click1:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.25s ease-in-out;
+    color:black;
+}
+.trietLy{
+    width: 100%;
+    height: 600px;
+    background-image:url('bsca.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content:  flex-end;
+}
+.trietLy-text{
+    width: 800px;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Monaco;
+    font-style:italic;
+    color: white;
+}
+.content span{
+    filter:drop-shadow(0 0 0.5px rgb(124, 51, 51)) ;
+}
+.tacGia{
+    width: 100%;
+    height: 48%;
+}
+.avt{
+    width: 150px;
+    height: 150px;
+    margin-left: 313px;
+    background-image:url('avt.jpg') ;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid white;   
+}
+.tacGia-name{
+    width: 300px;
+    height: 50px;
+    margin-left: 230px;
+    font-weight: 700;
+    font-family: Monaco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.topBanChay3{
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+}
+.tbc-iteam-big1{
+    width: 93%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.new{
+    width: 30%;
+    height: 100%;
+}
+.picture{
+    background-image: url('bản tin 2.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.picture1{
+    background-image: url('bản tin 4.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.picture2{
+    background-image: url('bản tin 6.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.information{
+    width: 100%;
+    height: 40%;
+}
+.tieuDe{
+    width: 100%;
+    height: 33.33%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.tieuDe a{
+    color:black;
+    text-decoration: none;
+}
+.sanXuat{
+    width: 100%;
+    height: 20.33%;
+    margin-top: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.sanXuat span{
+    color:limegreen;
+    font-weight: 100;
+}
+.noiDung{
+    width: 100%;
+    height: 40%;
+    font-weight: 100;
+    cursor: pointer;
+}
+.docThem{
+    width: 100%;
+    height: 25px;
+}
+.docThem a{
+    color:black;
+    font-weight: 100;
+}
+.docThem a:hover{
+    color:blue;
+}
+.danhGia{
+    width: 100%;
+    height: 380px;
+    background-image: url('newsletter-bg.jpg');
+}
+.first{
+    width: 40%;
+    height: 40%;
+    margin-left: 571px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 35px;
+}
+.second{
+    width: 10%;
+    height: 10%;
+    margin-left: 785px;
+    border-bottom: 2px solid black;
+}
+.third{
+    width: 50%;
+    height: 50%;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.third form input{
+    border:none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+
+}
+.third form .but1{
+    border: none;
+    font-size: 19px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+
+
+
+
